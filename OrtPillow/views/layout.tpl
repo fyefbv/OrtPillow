@@ -12,15 +12,17 @@
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" style="height: 40px;">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="/" class="navbar-brand">Application name</a>
+                <a href="/" class="navbar-brand">
+                    <img src="/static/images/ort_pillow_logo.png" alt="Logo" style="height: 30px;">
+                </a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse" style="padding-top: 5px; padding-bottom: 5px;">
                 <ul class="nav navbar-nav">
                     <li><a href="/home">Home</a></li>
                     <li><a href="/about">About</a></li>
@@ -34,7 +36,7 @@
         {{!base}}
         <hr />
         <footer>
-            <p>&copy; {{ year }} - My Bottle Application</p>
+            <p>&copy; {{ year }} - OrtPillow Company</p>
         </footer>
     </div>
 
@@ -44,3 +46,4 @@
 
 </body>
 </html>
+

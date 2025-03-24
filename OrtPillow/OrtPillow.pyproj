@@ -49,6 +49,10 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\images\grandfather.png" />
+    <Content Include="static\images\grandmother.png" />
+    <Content Include="static\images\man.png" />
+    <Content Include="static\images\office.building.png" />
     <Content Include="static\images\ort_pillow1.png" />
     <Content Include="static\images\ort_pillow10.png" />
     <Content Include="static\images\ort_pillow11.png" />
@@ -90,7 +94,7 @@
   <ItemGroup>
     <Interpreter Include="env\">
       <Id>env</Id>
-      <Version>0.0</Version>
+      <Version>3.12</Version>
       <Description>env (Python 3.12 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>

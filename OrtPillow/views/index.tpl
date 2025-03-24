@@ -6,6 +6,26 @@
     <p><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0" class="btn btn-primary btn-large">Learn more &raquo;</a>
 </div>
 
+<div class="container">
+    <div class="row">
+        % for product in products:
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="{{ product['image'] }}" class="card-img-top" alt="{{ product['name'] }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product['name'] }}</h5>
+                    <p class="card-text">{{ product['description'] }}</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="text-primary">{{ product['price'] }}</h4>
+                        <button class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        % end
+    </div>
+</div>
+
 <div class="row">
     <div class="col-md-4">
         <h2>Ozon</h2>

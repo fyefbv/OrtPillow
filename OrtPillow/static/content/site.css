@@ -56,3 +56,38 @@ input[type="checkbox"].input-validation-error {
     height: 200px;
     object-fit: cover;
 }
+
+.marketplace-row {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.marketplace-card {
+    text-align: center;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    height: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+    .marketplace-card:hover {
+        transform: translateY(-5px);
+    }
+
+.btn-marketplace {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+}
+
+    .btn-marketplace:hover {
+        background: #0056b3;
+        color: white;
+    }

@@ -26,20 +26,33 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Ozon</h2>
-        <p>Our pillows on Ozon</p>
-        <p><a class="btn btn-default" href="https://www.ozon.ru/">Learn more &raquo;</a></p>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="text-center mb-4">Also available on:</h3>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Wildberries</h2>
-        <p>Our pillows on Wildberries</p>
-        <p><a class="btn btn-default" href="https://www.wildberries.ru/">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Amazon</h2>
-        <p>Our pillows on Amazon</p>
-        <p><a class="btn btn-default" href="https://www.amazon.com/">Learn more &raquo;</a></p>
+    <div class="row marketplace-row">
+        <div class="col-md-4 mb-4">
+            <div class="marketplace-card">
+                <h2>Ozon</h2>
+                <p>Our pillows on Ozon</p>
+                <a class="btn btn-marketplace" href="https://www.ozon.ru/">Learn more &raquo;</a>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="marketplace-card">
+                <h2>Wildberries</h2>
+                <p>Our pillows on Wildberries</p>
+                <a class="btn btn-marketplace" href="https://www.wildberries.ru/">Learn more &raquo;</a>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="marketplace-card">
+                <h2>Amazon</h2>
+                <p>Our pillows on Amazon</p>
+                <a class="btn btn-marketplace" href="https://www.amazon.com/">Learn more &raquo;</a>
+            </div>
+        </div>
     </div>
 </div>

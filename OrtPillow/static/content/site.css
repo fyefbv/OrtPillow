@@ -44,12 +44,13 @@ input[type="checkbox"].input-validation-error {
 .card {
     transition: transform 0.3s;
     border: 1px solid rgba(0,0,0,.125);
+    margin: 10px;
 }
 
-.card:hover {
+ .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
+ }
 
 .card-img-top {
     height: 200px;

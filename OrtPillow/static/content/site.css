@@ -44,6 +44,7 @@ input[type="checkbox"].input-validation-error {
     transition: transform 0.3s;
     border: 1px solid rgba(0,0,0,.125);
     margin: 10px;
+    padding: 15px;
 }
 
 .card:hover {
@@ -52,8 +53,23 @@ input[type="checkbox"].input-validation-error {
 }
 
 .card-img-top {
-    height: 200px;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
     object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.card-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 225px;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
 }
 
 .marketplace-row {

@@ -7,11 +7,13 @@
 </div>
 
 <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
         % for product in products:
         <div class="col-md-4 mb-4">
             <div class="card h-100">
-                <img src="{{ product['image'] }}" class="card-img-top" alt="{{ product['name'] }}">
+                <div class="card-img-container">
+                    <img src="{{ product['image'] }}" class="card-img-top" alt="{{ product['name'] }}">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">{{ product['name'] }}</h5>
                     <p class="card-text">{{ product['description'] }}</p>

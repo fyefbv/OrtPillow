@@ -49,6 +49,9 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\images\first_pillows.jpg" />
+    <Content Include="static\images\first_team.jpg" />
+    <Content Include="static\images\garage_start.jpg" />
     <Content Include="static\images\grandfather.png" />
     <Content Include="static\images\grandmother.png" />
     <Content Include="static\images\man.png" />
@@ -71,6 +74,9 @@
     <Content Include="static\images\ort_pillows2.png" />
     <Content Include="static\images\ort_pillows3.png" />
     <Content Include="static\images\ort_pillow_logo.png" />
+    <Content Include="static\images\production.jpg" />
+    <Content Include="static\images\prototypes.jpg" />
+    <Content Include="static\images\startup_team.jpg" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
@@ -88,6 +94,7 @@
     <Content Include="static\scripts\_references.js" />
     <Content Include="views\about.tpl" />
     <Content Include="views\contact.tpl" />
+    <Content Include="views\history.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
   </ItemGroup>

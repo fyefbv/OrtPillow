@@ -27,6 +27,7 @@
                     <li><a href="/home" style="color: #ffffff;">Home</a></li>
                     <li><a href="/about" style="color: #ffffff;">About</a></li>
                     <li><a href="/contact" style="color: #ffffff;">Contact</a></li>
+                    <li><a href="/history">History</a></li>
                 </ul>
             </div>
         </div>

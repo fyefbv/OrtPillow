@@ -108,3 +108,11 @@ def about():
         message='Your application description page.',
         year=datetime.now().year
     )
+
+@route('/history')
+@view('history')
+def history():
+    return dict(
+        title='Company History',
+        year=datetime.now().year
+    )

@@ -79,6 +79,7 @@
     <Content Include="static\images\ort_pillow_logo.png" />
     <Content Include="static\images\production.jpg" />
     <Content Include="static\images\prototypes.jpg" />
+    <Content Include="static\images\questions.png" />
     <Content Include="static\images\startup_team.jpg" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
@@ -104,7 +105,7 @@
   <ItemGroup>
     <Interpreter Include="env\">
       <Id>env</Id>
-      <Version>3.12</Version>
+      <Version>0.0</Version>
       <Description>env (Python 3.12 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>

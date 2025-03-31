@@ -94,8 +94,8 @@ def home():
 def contact():
     """Renders the contact page."""
     return dict(
-        title='Contact',
-        message='Your contact page.',
+        title='Contact Ort Pillow',
+        message='Have questions? We are here to help! Reach out via your preferred method:',
         year=datetime.now().year
     )
 

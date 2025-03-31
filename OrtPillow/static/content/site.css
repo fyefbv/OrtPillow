@@ -46,10 +46,10 @@ input[type="checkbox"].input-validation-error {
     margin: 10px;
 }
 
-    .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    }
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
 
 .card-img-top {
     height: 200px;
@@ -73,9 +73,9 @@ input[type="checkbox"].input-validation-error {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-    .marketplace-card:hover {
-        transform: translateY(-5px);
-    }
+.marketplace-card:hover {
+    transform: translateY(-5px);
+}
 
 .btn-marketplace {
     background: #007bff;
@@ -86,10 +86,10 @@ input[type="checkbox"].input-validation-error {
     transition: background 0.3s ease;
 }
 
-    .btn-marketplace:hover {
-        background: #0056b3;
-        color: white;
-    }
+.btn-marketplace:hover {
+    background: #0056b3;
+    color: white;
+}
 
 .about-section {
     background-color: #e8f8f5;
@@ -130,9 +130,9 @@ input[type="checkbox"].input-validation-error {
     transition: transform 0.3s ease;
 }
 
-    .img-frame:hover {
-        transform: translateY(-3px);
-    }
+.img-frame:hover {
+    transform: translateY(-3px);
+}
 
 .advantages {
     display: grid;
@@ -154,11 +154,11 @@ input[type="checkbox"].input-validation-error {
     text-align: center;
 }
 
-    .about-card:hover {
-        transform: scale(1.03) translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0,123,123,0.2);
-        background: #fff;
-    }
+.about-card:hover {
+    transform: scale(1.03) translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,123,123,0.2);
+    background: #fff;
+}
 
 .stats-grid {
     display: grid;
@@ -176,10 +176,10 @@ input[type="checkbox"].input-validation-error {
     transition: all 0.3s ease;
 }
 
-    .stat-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
 
 .timeline {
     position: relative;
@@ -221,10 +221,10 @@ input[type="checkbox"].input-validation-error {
     cursor: pointer;
 }
 
-    .cert-logo:hover {
-        filter: grayscale(0);
-        transform: translateY(-3px) scale(1.05);
-    }
+.cert-logo:hover {
+    filter: grayscale(0);
+    transform: translateY(-3px) scale(1.05);
+}
 
 .video-section {
     margin: 50px 0;
@@ -265,10 +265,10 @@ input[type="checkbox"].input-validation-error {
     transition: all 0.3s ease;
 }
 
-    .project-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(0,123,123,0.2);
-    }
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,123,123,0.2);
+}
 
 .project-badge {
     background: #007b7b;
@@ -308,9 +308,9 @@ input[type="checkbox"].input-validation-error {
     font-size: 1.1em;
 }
 
-    .form-button:hover {
-        background: #005f5f;
-    }
+.form-button:hover {
+    background: #005f5f;
+}
 
 @media (max-width: 768px) {
     .section-title {
@@ -329,4 +329,31 @@ input[type="checkbox"].input-validation-error {
     .cert-logo {
         height: 60px;
     }
+}
+
+.background-container {
+    background: url('/static/images/questions.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 200px 15px;
+}
+
+.content-card {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.contact-block {
+    padding: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.contact-block h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
 }

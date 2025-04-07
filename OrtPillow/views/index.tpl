@@ -1,5 +1,24 @@
 % rebase('layout.tpl', title='Home Page', year=year)
 
+<div class="modal fade" id="outOfStockModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Notification</h5>
+        <button type="button" class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>This product is currently out of stock.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="jumbotron">
     <h1>Ort Pillow</h1>
     <p class="lead">Ort Pillow - the best online store for orthopedic pillows</p>
@@ -19,8 +38,11 @@
                     <p class="card-text">{{ product['description'] }}</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <h4 class="text-primary">{{ product['price'] }}</h4>
-                        <a href="https://www.ozon.ru/product/ortopedicheskaya-podushka-pappus-two-correct-53-38-sm-vysota-12-14-sm-pod-navolochku-50-440980327/?at=mqtkyW9kqh4N2KGMc8zVXy6hKNlV7Gu4pZnBzcAgkRwL&keywords=%D0%BE%D1%80%D1%82%D0%BE%D0%BF%D0%B5%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B8" 
-                        class="btn btn-success">Buy Now</a>
+                        <button class="btn btn-success" 
+                                data-toggle="modal" 
+                                data-target="#outOfStockModal">
+                            Buy Now
+                        </button>
                     </div>
                 </div>
             </div>

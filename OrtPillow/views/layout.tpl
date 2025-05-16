@@ -25,6 +25,7 @@
             <div class="navbar-collapse collapse" style="padding-top: 5px; padding-bottom: 5px;">
                 <ul class="nav navbar-nav">
                     <li><a href="/home" style="color: #ffffff;">Home</a></li>
+                    <li><a href="/orders" style="color: #ffffff;">Orders</a></li>
                     <li><a href="/about" style="color: #ffffff;">About</a></li>
                     <li><a href="/contact" style="color: #ffffff;">Contact</a></li>
                     <li><a href="/history">History</a></li>

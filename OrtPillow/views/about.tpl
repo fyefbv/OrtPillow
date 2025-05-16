@@ -1,5 +1,4 @@
-﻿
-% rebase('layout.tpl', title=title, year=year)
+﻿% rebase('layout.tpl', title=title, year=year)
 
 <div class="about-section">
     <h2 class="section-title">About OrtPillow</h2>
@@ -11,7 +10,7 @@
 
     <p class="text-primary">Established in 2017, OrtPillow was founded by three visionaries: Kirill Baranov, Roman Gavrilov, and Mahach Gadzhiev. Our products meet all medical standards ISO 13485:2016.</p>
 
-    <div class="mission-section">
+    <div class="mission-section"> 
         <h3 class="section-subtitle">Our Mission</h3>
         <p class="text-primary">To improve quality of life for patients through ergonomic orthopedic solutions.<br> 
         Every pillow we create - one step closer to comfortable rehabilitation.</p>
@@ -38,15 +37,7 @@
             <div class="timeline-year">2017</div>
             <div class="timeline-content">Founded in St. Petersburg with first prototype</div>
         </div>
-        <div class="timeline-item">
-            <div class="timeline-year">2019</div>
-            <div class="timeline-content">Won Best Medical Startup award</div>
-        </div>
-        <div class="timeline-item">
-            <div class="timeline-year">2022</div>
-            <div class="timeline-content">Opened new production facility</div>
-        </div>
-    </div>
+        <div class="timeline-item"> 
 
     <div class="advantages">
         <div class="about-card">

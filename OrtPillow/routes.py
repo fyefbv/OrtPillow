@@ -4,6 +4,9 @@ Routes and views for the bottle application.
 
 from bottle import route, view
 from datetime import datetime
+from order_form import load_orders 
+from bottle import get
+ 
 
 @route('/')
 @route('/home')
@@ -86,6 +89,23 @@ def home():
     ]
     return dict(
         products=products,
+        year=datetime.now().year
+    )
+@get('/orders')
+@route('/orders')
+@view('orders')
+def orders():
+    """Render orders page with medical orders data"""
+    return dict(
+        sorted_orders=load_orders(),
+        order_id='',       
+        product='',        
+        date='',          
+        phone='',          
+        order_id_error='',
+        product_error='',
+        date_error='',
+        phone_error='',
         year=datetime.now().year
     )
 

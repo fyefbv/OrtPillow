@@ -5,6 +5,7 @@ Routes and views for the bottle application.
 from bottle import route, view
 from datetime import datetime
 from order_form import load_orders 
+from reviews_form import load_reviews
 from bottle import get
  
 
@@ -106,6 +107,19 @@ def orders():
         product_error='',
         date_error='',
         phone_error='',
+        year=datetime.now().year
+    )
+
+@route('/reviews')
+@view('reviews')
+def reviews():
+    return dict(
+        sorted_reviews=load_reviews(),
+        errors={},
+        author='',
+        text='',
+        phone='',
+        date='',
         year=datetime.now().year
     )
 
